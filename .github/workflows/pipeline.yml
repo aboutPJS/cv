@@ -1,0 +1,17 @@
+name: Add link to styling to index.html
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  execute_script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Execute Shell Script
+        run: bash ./add_style.sh
