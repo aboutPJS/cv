@@ -6,5 +6,5 @@ Host your iA writer doucment
 4. run './get-ready.sh'
 5. push to repo
 6. check visibility of changes
-
+        
 Good Luck!!
